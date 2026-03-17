@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Adventure Hero | Chukwufumanya Isu</title>
+  <meta name="description" content="Adventure Hero — gameplay-focused prototype work featuring player abilities, UI, and progression systems.">
+  <meta name="keywords" content="">
+
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="../assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="../index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="../index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="../index.html#portfolio" class="active"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+          <li><a href="../index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+          <li><a href="../index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="https://x.com/blakGhost3one" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.instagram.com/blackghost3one/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/blackghost3one" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/BLACK-GH0ST" class="github"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Adventure Hero</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#portfolio">Portfolio</a></li>
+            <li class="current">Adventure Hero</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": "auto",
+                  "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/portfolio-2.webp" alt="Adventure Hero cover" class="img-fluid" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/portfolio-5.webp" alt="Adventure Hero: The Story of the Lost Words cover" class="img-fluid" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/portfolio-6.webp" alt="Adventure Hero screenshot" class="img-fluid" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <div class="ratio ratio-16x9">
+                    <!-- Replace VIDEO_ID with your YouTube video id (example: https://www.youtube.com/watch?v=VIDEO_ID) -->
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Adventure Hero video" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-left" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category</strong>: Game prototype</li>
+                <li><strong>Focus</strong>: Player abilities, UI, progression</li>
+                <li><strong>Role</strong>: Programmer</li>
+                <li><strong>Tools</strong>: Unreal Engine / C++ (or equivalent prototype tooling)</li>
+                <li><strong>Download</strong>: <a href="https://github.com/BLACK-GH0ST" target="_blank" rel="noopener">Repository / builds</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Overview</h2>
+              <p>
+                Adventure Hero is a gameplay-first project emphasizing clear controls, readable combat, and a satisfying progression loop.
+                It highlights my ability to build player-facing systems (abilities, UI, and interaction) with a focus on feel and iteration speed.
+              </p>
+
+              <div class="features mt-4">
+                <h3>Highlights</h3>
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle-fill"></i>
+                      <h4>Ability systems</h4>
+                      <p>Implemented a foundation for player abilities, cooldowns, and upgrades.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-window"></i>
+                      <h4>UI and feedback</h4>
+                      <p>Player feedback loops to improve clarity and moment-to-moment decision making.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-diagram-3"></i>
+                      <h4>Progression structure</h4>
+                      <p>Level-based flow and progression scaffolding for expanding content.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-tools"></i>
+                      <h4>Iteration-friendly</h4>
+                      <p>Built with tuning and balancing in mind to support fast changes.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-actions mt-4 mb-0">
+                <a class="btn btn-primary" href="../index.html#contact">Contact Me</a>
+                <a class="btn btn-outline" href="../index.html#portfolio">Portfolio</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Chukwufumanya Isu</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
+
