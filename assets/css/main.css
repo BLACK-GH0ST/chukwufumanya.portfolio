@@ -1794,7 +1794,7 @@ section,
 }
 
 .services .service-card {
-  padding: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
   margin-bottom: 30px;
   border: 2px solid color-mix(in srgb, var(--accent-color), transparent 90%);
   transition: all 0.3s ease;
@@ -2497,7 +2497,7 @@ section,
   font-weight: 700;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 2px solid color-mix(in srgb, var(--accent-color), transparent 85%);
+  border-bottom: 2px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 .service-details .service-info .info-item {
@@ -2537,7 +2537,7 @@ section,
   font-weight: 700;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 2px solid color-mix(in srgb, var(--accent-color), transparent 85%);
+  border-bottom: 2px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 .service-details .related-services .service-item {
